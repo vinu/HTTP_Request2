@@ -26,6 +26,9 @@
 		"lib-curl"     : "Allows using cURL as a request backend.",
 		"lib-openssl"  : "Allows handling SSL requests when not using cURL."
 	},
+        "include-path": [
+                            "."
+                        ],
 	"autoload": {
 		"psr-0": {
 			"HTTP_Request2" : ""
